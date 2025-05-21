@@ -4,7 +4,7 @@ from sg import ChatBot
 app = Flask(__name__)
 
 # Initialize the chatbot
-api_key = 'AIzaSyB-QjkHYyMXsXKQI8SfQTQioFHFSH2YjAQ' 
+api_key = 'your_api_key' 
 chatbot = ChatBot(api_key=api_key)
 chatbot.start_conversation()
 
